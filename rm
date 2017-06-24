@@ -1,0 +1,1 @@
+rm -f liblocal.o main.o lib.o pam_auth_uname.o README.md liblocal.so main
