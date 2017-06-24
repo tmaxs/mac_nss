@@ -47,7 +47,7 @@ extern int mac_get_user_info (const char *uname, uid_t uid, struct usersec *out)
 				out->min = min;
 				out->max = max;
 				out->sec_cat = temp.sec_cat;
-				free(out->uname);
+				//free(out->uname);
 				
 				fclose(file);
 				return 1;
